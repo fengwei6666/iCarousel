@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1281405F23CC5F96006EA970 /* iCarousel+AutoLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 1281405D23CC5F96006EA970 /* iCarousel+AutoLoop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1281406023CC5F96006EA970 /* iCarousel+AutoLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 1281405D23CC5F96006EA970 /* iCarousel+AutoLoop.h */; };
+		1281406123CC5F96006EA970 /* iCarousel+AutoLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1281405E23CC5F96006EA970 /* iCarousel+AutoLoop.m */; };
+		1281406223CC5F96006EA970 /* iCarousel+AutoLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1281405E23CC5F96006EA970 /* iCarousel+AutoLoop.m */; };
 		821507391E5746F000C75711 /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 821507371E5746F000C75711 /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8215073A1E5746F000C75711 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 821507381E5746F000C75711 /* iCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1281405D23CC5F96006EA970 /* iCarousel+AutoLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iCarousel+AutoLoop.h"; sourceTree = "<group>"; };
+		1281405E23CC5F96006EA970 /* iCarousel+AutoLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "iCarousel+AutoLoop.m"; sourceTree = "<group>"; };
 		8215072B1E57468200C75711 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8215072F1E57468200C75711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		821507371E5746F000C75711 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
@@ -59,6 +65,8 @@
 			children = (
 				821507371E5746F000C75711 /* iCarousel.h */,
 				821507381E5746F000C75711 /* iCarousel.m */,
+				1281405D23CC5F96006EA970 /* iCarousel+AutoLoop.h */,
+				1281405E23CC5F96006EA970 /* iCarousel+AutoLoop.m */,
 				8215073B1E5746F400C75711 /* Supporting Files */,
 			);
 			path = iCarousel;
@@ -80,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				821507391E5746F000C75711 /* iCarousel.h in Headers */,
+				1281405F23CC5F96006EA970 /* iCarousel+AutoLoop.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +96,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1281406023CC5F96006EA970 /* iCarousel+AutoLoop.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +163,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 821507211E57468200C75711;
@@ -188,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1281406123CC5F96006EA970 /* iCarousel+AutoLoop.m in Sources */,
 				8215073A1E5746F000C75711 /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1281406223CC5F96006EA970 /* iCarousel+AutoLoop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +417,7 @@
 				821507491E57475B00C75711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
